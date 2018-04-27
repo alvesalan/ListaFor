@@ -34,7 +34,7 @@ namespace ListaFor
             {
                 Console.WriteLine("Preços " + (j + 1) + " = " + Preços[j] + " R$");
             }
-                Console.WriteLine("Valor Total: " + ValorTotal + "R$");
+                Console.WriteLine("Valor Total: " + ValorTotal + " R$");
 
           
 

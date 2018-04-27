@@ -11,7 +11,7 @@ namespace ListaFor
         {
             int[] Idades = new int[7];
 
-            for(int i = 0; i <= 6; i++)
+            for(int i = 0; i < Idades.Length; i++)
             {  
                
                 Console.Write("Idade: ");

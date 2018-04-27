@@ -9,9 +9,10 @@ namespace ListaFor
     {
         public Exercicio01()
         {
+
             string[] Nomes = new string[25];
 
-            for(int i = 0; i <= 4; i++)
+            for(int i = 0; i < Nomes.Length; i++)
             {
                 Console.Write("Nome: ");
                 Nomes[i] = Console.ReadLine();
