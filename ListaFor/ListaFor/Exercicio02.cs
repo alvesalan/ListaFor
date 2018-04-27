@@ -12,7 +12,8 @@ namespace ListaFor
             int[] Idades = new int[7];
 
             for(int i = 0; i <= 6; i++)
-            {
+            {  
+               
                 Console.Write("Idade: ");
                 Idades[i] = Convert.ToInt32(Console.ReadLine());
 
