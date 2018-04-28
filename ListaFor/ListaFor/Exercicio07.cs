@@ -10,7 +10,7 @@ namespace ListaFor
     {
         public Exercicio07()
         {
-            //testeakiooooooo
+           
             string OcaracterE = "", SomaConsoantesS = "", SomaVogaisS = "";
             int SomaConsoantes = 0, SomaVogais = 0, SomaCara = 0;
             bool existeCaracterEspecial;
