@@ -34,7 +34,7 @@ namespace ListaFor
 
             for (int i = 0; i < Numeros.Length; i++)
             { 
-                Numeros[i] = Convert.ToDouble(rnd.Next(int.MinValue, int.MaxValue));
+                Numeros[i] = Convert.ToDouble(rnd.Next(-10, 10));
 
                 Soma = Soma + Numeros[i];
             }
